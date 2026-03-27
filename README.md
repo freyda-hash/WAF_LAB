@@ -52,9 +52,9 @@ Ce projet démontre l'acquisition des compétences suivantes dans le domaine de 
 
 ## Utilisation
 
-1. Installer les dépendances : `pip install -e .`
-2. Lancer les applications Flask : `python app1.py` ou `python app2.py`
+1. Installer les dépendances : `curl -LsSf https://astral.sh/uv/install.sh | sh`
+2. Lancer les applications Flask : `uv run python app1.py` ou `uv run python app2.py`
 3. Configurer Nginx avec le fichier nginx.conf
 4. Analyser la sécurité SSL : Utiliser SSLyze pour générer les rapports
 
-Ce laboratoire permet de maîtriser les fondamentaux de la sécurisation d'applications web modernes. 
+Ce laboratoire m'a permis de maîtriser les fondamentaux de la sécurisation d'applications web modernes. 
