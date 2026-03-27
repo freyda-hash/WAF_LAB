@@ -1,5 +1,10 @@
 from flask import Flask
 app = Flask(__name__)
+
+@app.route("/error")
+def error():
+    return 1 / 0
+
 @app.route("/")
 def home():
  return "Welcome to app2"
