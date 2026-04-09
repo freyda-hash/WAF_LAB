@@ -50,6 +50,8 @@ Ce projet démontre l'acquisition des compétences suivantes dans le domaine de 
 - **pyproject.toml** : Dépendances Python (Flask, SSLyze).
 - **result-app1.json / result-app2.json** : Résultats des analyses SSL.
 
+![alt text](image.png)
+
 ## Utilisation
 
 1. Installer les dépendances : `curl -LsSf https://astral.sh/uv/install.sh | sh`
